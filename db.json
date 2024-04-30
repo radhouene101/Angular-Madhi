@@ -1,0 +1,112 @@
+{
+  "appartement": [
+    {
+      "id": "1",
+      "apartNum": "251",
+      "floorNum": 44,
+      "surface": "55",
+      "terrace": "yes",
+      "surfaceTerrace": "",
+      "category": "test",
+      "description": "Consectetur perfere",
+      "residence": {
+        "id": 1,
+        "name": "El fel",
+        "address": "Borj Cedria",
+        "image": "../../assets/images/residence1.jpg"
+      }
+    },
+    {
+      "apartNum": "",
+      "description": "",
+      "residence": {
+        "id": 1,
+        "name": "El fel",
+        "address": "Borj Cedria",
+        "image": "../../assets/images/residence1.jpg"
+      },
+      "id": "20"
+    },
+    {
+      "apartNum": "tee",
+      "description": "tess",
+      "residence": {
+        "id": 1,
+        "name": "El fel",
+        "address": "Borj Cedria",
+        "image": "../../assets/images/residence1.jpg"
+      },
+      "id": "50"
+    },
+    {
+      "id": "90",
+      "apartNum": "251",
+      "floorNum": 44,
+      "surface": "55",
+      "terrace": "yes",
+      "surfaceTerrace": "",
+      "category": "test",
+      "description": "Consectetur perfere",
+      "residence": {
+        "id": 1,
+        "name": "El fel",
+        "address": "Borj Cedria",
+        "image": "../../assets/images/residence1.jpg"
+      }
+    },
+    {
+      "id": "0990",
+      "apartNum": "251",
+      "floorNum": 44,
+      "surface": "55",
+      "terrace": "yes",
+      "surfaceTerrace": "",
+      "category": "test",
+      "description": "Consectetur perfere",
+      "residence": {
+        "id": 1,
+        "name": "El fel",
+        "address": "Borj Cedria",
+        "image": "../../assets/images/residence1.jpg"
+      }
+    },
+    {
+      "id": "120",
+      "apartNum": "251",
+      "floorNum": 44,
+      "surface": "55",
+      "terrace": "yes",
+      "surfaceTerrace": "",
+      "category": "test",
+      "description": "Consectetur perfere",
+      "residence": {
+        "id": 1,
+        "name": "El fel",
+        "address": "Borj Cedria",
+        "image": "../../assets/images/residence1.jpg"
+      }
+    },
+    {
+      "id": "c02e",
+      "apartNum": "idara",
+      "description": "IDAARAA",
+      "residence": {
+        "id": 1,
+        "name": "El fel",
+        "address": "Borj Cedria",
+        "image": "../../assets/images/residence1.jpg"
+      }
+    },
+    {
+      "id": "42a9",
+      "apartNum": "89898989",
+      "description": "VAAAAAAAACHEEEEE",
+      "residence": {
+        "id": 1,
+        "name": "El fel",
+        "address": "Borj Cedria",
+        "image": "../../assets/images/residence1.jpg"
+      }
+    }
+  ]
+}

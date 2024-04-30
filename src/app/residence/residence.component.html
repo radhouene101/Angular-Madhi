@@ -8,6 +8,12 @@
 <hr />
 <input [(ngModel)]="var2">
 {{var2}}-->
+<button (click)="checkListValues()" class="btn btn-outline-dark"> check list content</button>
+<div class="container container-fluid" *ngIf="somme">
+  <p class="align-content-center">  the sum is {{somme}}</p>
+
+</div>
+
 
 <table border="3">
     <tr>
