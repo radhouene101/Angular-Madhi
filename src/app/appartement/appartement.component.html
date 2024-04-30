@@ -1,0 +1,16 @@
+
+<a routerLink="/addAppart" class="btn btn-success">add appartement</a>
+
+<div class="row ">
+  <div class="card m-3" style="width: 18rem;" *ngFor="let l of listAppart;index as i">
+    <img [src]="l.residence.image" class="card-img-top " alt="...">
+      <div class="card-body">
+       <h5 class="card-title">{{ l.residence.address }}</h5>
+        <p class="card-text">{{ l.description}}</p>
+        <p class="card-text"> {{l.residence.name}}</p>
+        <a [routerLink]="['/update',l.id]" (click)="updateAppart()" class="btn btn-primary"> Update</a>
+        <a (click)="deleteAppart(l.id,i)" class="btn btn-danger">delete</a>
+        <a [routerLink]="['/showAppart',l.id]" class="btn btn-dark">show</a>
+      </div>
+  </div>
+</div>

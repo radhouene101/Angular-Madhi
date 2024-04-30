@@ -1,0 +1,44 @@
+<div class="container">
+
+  <form [formGroup]="formResidence" >
+    <div class="input-group p-2">
+      <div class="input-group-prepend">
+        <span class="input-group-text">
+          id
+        </span>
+      </div>
+      <input type="text" class="form-control" formControlName="id">
+      <div *ngIf="id!.invalid && id!.touched && id?.hasError?.('pattern')" class="alert alert-danger">
+        id is invalid
+      </div>
+    </div>
+    <div class="input-group">
+      <div class="input-group-prepend">
+        <span class="input-group-text">
+          Name
+        </span>
+      </div>
+      <input type="text" class="form-control" formControlName="name">
+      <div *ngIf="formResidence.get('name')!.invalid
+      && formResidence.get('name')!.touched
+       && formResidence.get('name')?.hasError?.('pattern')" class="alert alert-danger">
+        name is invalid
+      </div>
+    </div>
+    <div class="input-group p-2">
+      <div class="input-group-prepend">
+        <span class="input-group-text">
+          address
+        </span>
+      </div>
+      <input type="text" class="form-control" formControlName="address">
+      <div *ngIf="formResidence.get('address')?.errors?.['minlength']  && formResidence.get('address')!.invalid && formResidence.get('address')!.touched " class="alert alert-danger">
+        address is invalid
+      </div>
+    </div>
+    <div class="input-group p-3">
+      <input type="submit" class="btn btn-primary" (click)="onSubmit()" [disabled]="formResidence.invalid" >
+    </div>
+  </form>
+
+</div>
